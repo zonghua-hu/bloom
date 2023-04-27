@@ -1,10 +1,10 @@
 <?php
 
-namespace tests;
+namespace Moyu\Bloom\tests;
 
+use Moyu\Bloom\Service\BloomAbstract;
+use Moyu\Bloom\Service\BloomFactory;
 use PHPUnit\Framework\TestCase;
-use Service\BloomAbstract;
-use Service\BloomFactory;
 use Service\RedisClient\RedisDefault;
 
 class BloomTest extends TestCase

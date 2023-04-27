@@ -1,13 +1,13 @@
 <?php
 
-namespace Example;
+namespace Moyu\Bloom\example;
 
-use Enum\BloomEnums;
-use Service\BloomFactory;
-use Service\BloomFilter\BloomFilter;
-use Service\BloomSingle;
-use Service\CuckooFilter\CuckooFilter;
-use Service\RedisClient\RedisDefault;
+use Moyu\Bloom\Enum\BloomEnums;
+use Moyu\Bloom\Service\BloomFactory;
+use Moyu\Bloom\Service\BloomFilter\BloomFilter;
+use Moyu\Bloom\Service\BloomSingle;
+use Moyu\Bloom\Service\CuckooFilter\CuckooFilter;
+use Moyu\Bloom\Service\RedisClient\RedisDefault;
 
 class Demo
 {

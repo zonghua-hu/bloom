@@ -1,6 +1,6 @@
 <?php
 
-namespace Enum;
+namespace Moyu\Bloom\Enum;
 
 class BloomEnums
 {

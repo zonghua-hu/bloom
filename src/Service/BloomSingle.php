@@ -1,9 +1,9 @@
 <?php
 
-namespace Service;
+namespace Moyu\Bloom\Service;
 
-use Service\BloomFilter\BloomFilter;
-use Service\CuckooFilter\CuckooFilter;
+use Moyu\Bloom\Service\BloomFilter\BloomFilter;
+use Moyu\Bloom\Service\CuckooFilter\CuckooFilter;
 
 class BloomSingle
 {

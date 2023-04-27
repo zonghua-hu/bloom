@@ -1,10 +1,10 @@
 <?php
 
-namespace Service\BloomFilter;
+namespace Moyu\Bloom\Service\BloomFilter;
 
-use Enum\BloomEnums;
+use Moyu\Bloom\Enum\BloomEnums;
+use Moyu\Bloom\Service\BloomAbstract;
 use Predis\Client;
-use Service\BloomAbstract;
 
 /**
  * 布隆过滤器

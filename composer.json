@@ -10,7 +10,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "moyu\\Bloom\\": "src/"
+            "Moyu\\Bloom\\": "src/"
         }
     },
     "authors": [

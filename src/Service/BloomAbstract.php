@@ -1,8 +1,8 @@
 <?php
 
-namespace Service;
+namespace Moyu\Bloom\Service;
 
-use Enum\BloomEnums;
+use Moyu\Bloom\Enum\BloomEnums;
 use Predis\Client;
 
 /**

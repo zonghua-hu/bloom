@@ -1,10 +1,10 @@
 <?php
 
-namespace Service\CuckooFilter;
+namespace Moyu\Bloom\Service\CuckooFilter;
 
-use Enum\BloomEnums;
+use Moyu\Bloom\Enum\BloomEnums;
+use Moyu\Bloom\Service\BloomAbstract;
 use Predis\Client;
-use Service\BloomAbstract;
 
 /**
  * 布谷鸟过滤器

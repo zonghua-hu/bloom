@@ -1,8 +1,8 @@
 <?php
 
-namespace Service\RedisClient;
+namespace Moyu\Bloom\Service\RedisClient;
 
-use Enum\RedisEnums;
+use Moyu\Bloom\Enum\RedisEnums;
 
 class RedisDefault
 {
@@ -12,7 +12,7 @@ class RedisDefault
     public static function getRedisDefaultConfig(): array
     {
         return [
-            RedisEnums::REDIS_HOST     => 'redis',
+            RedisEnums::REDIS_HOST     => '127.0.0.1',
             RedisEnums::REDIS_PORT     => 6379,
             RedisEnums::REDIS_TIMEOUT  => 0,
             RedisEnums::REDIS_DATABASE => 0,

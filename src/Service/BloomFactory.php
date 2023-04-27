@@ -1,10 +1,10 @@
 <?php
 
-namespace Service;
+namespace Moyu\Bloom\Service;
 
-use Enum\BloomEnums;
-use Service\BloomFilter\BloomFilter;
-use Service\CuckooFilter\CuckooFilter;
+use Moyu\Bloom\Enum\BloomEnums;
+use Moyu\Bloom\Service\BloomFilter\BloomFilter;
+use Moyu\Bloom\Service\CuckooFilter\CuckooFilter;
 
 /**
  * 过滤器工厂

@@ -1,5 +1,5 @@
 {
-    "name": "hans/bloom",
+    "name": "moyu/bloom",
     "description": "Bloom filter and Cuckoo filter based on php language",
     "type": "library",
     "require": {
@@ -15,7 +15,7 @@
     },
     "authors": [
         {
-            "name": "hans"
+            "name": "moyu"
         }
     ],
     "minimum-stability": "stable"

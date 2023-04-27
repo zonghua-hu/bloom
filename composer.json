@@ -1,5 +1,5 @@
 {
-    "name": "moyu/bloom",
+    "name": "moyu-hu/bloom",
     "description": "Bloom filter and Cuckoo filter based on php language",
     "type": "library",
     "require": {

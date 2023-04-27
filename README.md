@@ -1,6 +1,8 @@
 # bloom
 Bloom filter and Cuckoo filter based on php language
 
+# 引入composer包
+`composer require moyu-hu/bloom`
 ## redis bloom 模块
 ```
 1.需要开启redis的module功能，参考链接：https://www.cnblogs.com/emunshe/p/13690115.html

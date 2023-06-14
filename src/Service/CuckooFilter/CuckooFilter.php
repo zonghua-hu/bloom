@@ -4,6 +4,7 @@ namespace Moyu\Bloom\Service\CuckooFilter;
 
 use Moyu\Bloom\Enum\BloomEnums;
 use Moyu\Bloom\Service\BloomAbstract;
+use Moyu\Bloom\Service\RedisClient\RedisSingle;
 use Predis\Client;
 
 /**
@@ -43,7 +44,7 @@ class CuckooFilter extends BloomAbstract
      */
     public function __construct(array $config)
     {
-        $this->redis = new Client($config);
+        $this->redis = RedisSingle::getInstance($config);
     }
 
     /**
